@@ -1,0 +1,107 @@
+html
+{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ecf0f3;
+}
+
+body {
+    padding: 30px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-radius: 25px;
+    box-shadow:
+        10px 10px 10px #d1d9e6,
+        -10px -10px 10px #FFFFFF;
+    background-color: #ecf0f3;
+}
+
+.task {
+	margin-bottom: 30px;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow:
+        inset 10px 10px 10px #d1d9e6,
+        inset -10px -10px 10px #FFFFFF;
+}
+
+.task_answer {
+	margin: 20px;
+}
+
+.accordion {
+    background-color: #CFD8DC;
+    color: #000;
+    cursor: pointer;
+    padding: 16px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.active, .accordion:hover {
+    background-color: #607D8B;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #fff;
+  	font-size: 18px;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+  	color: #212121;
+    background-color: #fff;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.contacts{
+	margin-bottom: 30px;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow:
+        10px 10px 10px #d1d9e6,
+        -10px -10px 10px #FFFFFF;
+	overflow-x:hidden;
+}
+
+.contacts i{
+	font-size: 20px;
+	padding: 10px;
+}
+
+a {
+  color: #212121;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+.text_blue {
+    color: #89DDFF;
+}
+
+.text_dark_blue {
+    color: #82AAFF;
+}
+
+.text_green {
+    color: #C3E88D;
+}
+
+
